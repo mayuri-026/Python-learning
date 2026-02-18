@@ -31,3 +31,30 @@ program.py
 
 Python Interpreter
 Python uses an interpreter to execute code.
+
+Variables in Python
+A variable is a name used to store data in memory.
+
+name = "Mayuri"
+age = 23
+price = 99.99
+name → String
+age → Integer
+price → Float
+
+Operators in Python
+Arithmetic Operators
++   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+%   Modulus (Remainder)
+**  Exponent (Power)
+
+Comparison Operators
+==   Equal
+!=   Not Equal
+>    Greater than
+<    Less than
+>=   Greater than or equal to
+<=   Less than or equal to
