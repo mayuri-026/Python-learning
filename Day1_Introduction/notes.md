@@ -64,5 +64,3 @@ Rule for identifiers..
 2. an identifier can not start with digit, so while variable1 is valid 1variable is not valid. 
 3. Identifier can be of any length.
 4. We cant use special symblo like !,#,@,%,$ etc in our identifier.
-=======
->>>>>>> 7738aabcc9e587b93ce85bf12533e681078eefdd
