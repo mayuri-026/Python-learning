@@ -1,5 +1,4 @@
 What is Programming?
-
 Programming is the process of writing instructions that tell a computer what to do.
 
 Computers cannot understand human languages like English or Marathi.
@@ -10,7 +9,7 @@ To communicate with a computer, we use programming languages such as Python.
 Python is a high-level, interpreted programming language.
 It converts human-readable code into machine code using an interpreter.
 
-Key Features of Python
+Key Features of Python...
 Easy to understand and write
 High-level language
 Interpreted (executes line by line)
@@ -22,7 +21,6 @@ First Python Program
 print("Hello World")
 
 What is a .py File?
-
 .py is the file extension used for Python programs.
 Examples of file extensions:
 movie.mp4
@@ -58,6 +56,7 @@ Comparison Operators
 <    Less than
 >=   Greater than or equal to
 <=   Less than or equal to
+<<<<<<< HEAD
 
 
 Rule for identifiers..
@@ -65,3 +64,5 @@ Rule for identifiers..
 2. an identifier can not start with digit, so while variable1 is valid 1variable is not valid. 
 3. Identifier can be of any length.
 4. We cant use special symblo like !,#,@,%,$ etc in our identifier.
+=======
+>>>>>>> 7738aabcc9e587b93ce85bf12533e681078eefdd
