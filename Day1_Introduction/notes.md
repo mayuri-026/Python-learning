@@ -58,3 +58,10 @@ Comparison Operators
 <    Less than
 >=   Greater than or equal to
 <=   Less than or equal to
+
+
+Rule for identifiers..
+1. Identifier can be combination of uppercase and lowercase lettr, digits or an underscrore(_) so myvariable, variable_1, variable_for_print all are valid python identifiers. 
+2. an identifier can not start with digit, so while variable1 is valid 1variable is not valid. 
+3. Identifier can be of any length.
+4. We cant use special symblo like !,#,@,%,$ etc in our identifier.
