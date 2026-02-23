@@ -33,3 +33,6 @@ print(number_float)
 
 name = input("mayuri")
 print(name)
+
+age = int(input(27))
+print(age + 5)
