@@ -30,3 +30,6 @@ print(age_str)
 number = 10
 number_float = float(number)
 print(number_float)
+
+name = input("mayuri")
+print(name)

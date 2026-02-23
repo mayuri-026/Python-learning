@@ -131,3 +131,13 @@ Convert Integer to String
 age = 25
 age_str = str(age)
 print(age_str)
+
+Convert Integer to Float
+number = 10
+number_float = float(number)
+print(number_float)
+
+Input Handling in Python
+input()
+name = input("Enter your name: ")
+print(name)
