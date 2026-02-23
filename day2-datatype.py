@@ -17,3 +17,16 @@ num1 = "25"
 num2 = "25"
 total = int(num1) + int(num2)
 print("Total:", total)
+
+
+num = "10"
+num = int(num)
+print(num)
+
+age = 25
+age_str = str(age)
+print(age_str)
+
+number = 10
+number_float = float(number)
+print(number_float)

@@ -64,3 +64,70 @@ Rule for identifiers..
 2. an identifier can not start with digit, so while variable1 is valid 1variable is not valid. 
 3. Identifier can be of any length.
 4. We cant use special symblo like !,#,@,%,$ etc in our identifier.
+
+
+DAY 2 Notes 
+Data Types in Python
+String (str)
+
+Used to store text.
+
+Written inside single (' ') or double (" ") quotes.
+
+Integer (int)
+
+Used to store whole numbers.
+
+No decimal point.
+
+Integer (int)
+
+Used to store whole numbers.
+
+No decimal point.
+
+Boolean (bool)
+
+Stores only two values:
+
+True
+
+False
+Boolean (bool)
+
+Stores only two values:
+
+True
+
+False
+
+is_student = True
+is_logged_in = False
+
+
+Implicit Type Conversion
+Python automatically converts data types.
+Happens when combining different numeric types.
+ex:
+a = 5       # int
+b = 2.0     # float
+result = a + b
+print(result)   # 7.0
+
+Explicit Type Conversion (Type Casting)
+Done manually using functions.
+Common type casting functions:
+int()
+float()
+str()
+bool()
+
+Convert String to Integer
+num = "10"
+num = int(num)
+print(num)
+
+Convert Integer to String
+age = 25
+age_str = str(age)
+print(age_str)
