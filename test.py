@@ -13,3 +13,9 @@ price = 11.11
 
 print("my name is :", name)
 print("my age is :", age)
+
+name = "mayuri"
+age = 27
+price = 11.11
+print=(name)
+
