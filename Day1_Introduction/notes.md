@@ -67,6 +67,12 @@ Rule for identifiers..
 
 
 DAY 2 Notes 
+1.interger
+2.string
+3.float
+4.boolean
+5.none
+
 Data Types in Python
 String (str)
 
