@@ -67,6 +67,7 @@ Rule for identifiers..
 
 
 DAY 2 Notes 
+data types :
 1.interger
 2.string
 3.float
