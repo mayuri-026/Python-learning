@@ -19,3 +19,16 @@ print(567 + 679)
 
 print("He is", 30, "year old")
 print("Im working here from", 8, "months.")
+
+#This is a comment
+print("Mayuri, Vikhe!")
+
+# Add a multiline comment
+# now we will see here how to use end 
+print("There is holi on 2nd march!", end=" ")
+print("There is a holiday on 2nd march")
+
+x = 10
+y = "sakshi"
+print(x)
+print(y)

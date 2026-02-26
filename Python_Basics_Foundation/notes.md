@@ -14,3 +14,18 @@ Python Comments:--
 Comments can be used to explain Python code.
 Comments can be used to make the code more readable.
 Comments can be used to prevent execution when testing code.
+
+Comment = code madhla explanation text
+
+Python comment execute kart nahi.
+To fakta developer sathi explanation asto.
+Comment = code madhla explanation text
+
+# This is a comment
+print("Hello, World!")
+
+output - Hello, world!
+
+Creating Variables--
+Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
