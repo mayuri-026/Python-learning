@@ -71,3 +71,82 @@ print(age)
 print(price)
 print("my name is : ", name)
 print("my age is : ", age)
+
+name1 = "Techjar"
+name2 = 'Techjar'
+name3 = '''Techjar'''
+print(name1)
+print(name2)
+print(name3)
+
+#Legal variable name 
+myvar = "shree"
+my_var = "shree"
+_my_var = "shree"
+myVar = "shree"
+MYVAR = "shree"
+myvar2 = "shree"
+
+print(myvar)
+print(my_var)
+print(_my_var)
+print(myVar)
+print(MYVAR)
+print(myvar2)
+
+
+#Many Values to Multiple Variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#One Value to Multiple Variables
+ #And you can assign the same value to multiple variables in one line:
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+#unpack value
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+x = 1
+y = 2.8
+z = 1j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#interger
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Float
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Complex:
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
