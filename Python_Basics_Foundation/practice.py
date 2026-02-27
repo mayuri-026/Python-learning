@@ -32,3 +32,42 @@ x = 10
 y = "sakshi"
 print(x)
 print(y)
+
+x = 9
+x = "nita"
+print(x)
+
+x = str(9)
+y = str(10)
+z = str(90)
+print(x)
+print(y)
+print(z)
+
+x = 5
+y = "Jony"
+print(type(x))
+print(type(y))
+
+
+x = "sonal"
+print(x)
+#double quotes are the same as single quotes:
+x = 'sonal'
+print(x)
+
+a = 4
+A = "techjar"
+
+print(a)
+print(A)
+
+name = "mayuri"
+age = 25
+price = 27
+
+print(name)
+print(age)
+print(price)
+print("my name is : ", name)
+print("my age is : ", age)

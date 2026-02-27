@@ -29,3 +29,38 @@ output - Hello, world!
 Creating Variables--
 Python has no command for declaring a variable.
 A variable is created the moment you first assign a value to it.
+
+Variable - Variables are containers for storing data values.
+
+You can get the data type of a variable with the type() function.
+x = 5
+y = "Jony"
+print(type(x))
+print(type(y))
+
+
+String variables can be declared either by using single or double quotes:
+x = "John"
+print(x)
+#double quotes are the same as single quotes:
+x = 'John'
+print(x)
+
+Case-Sensitive
+Variable names are case-sensitive.
+a = 4
+A = "techjar"
+
+print(a)
+print(A)
+
+Variable Names
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+
+Rules for Python variables:--
+
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+A variable name cannot be any of the Python keywords.
