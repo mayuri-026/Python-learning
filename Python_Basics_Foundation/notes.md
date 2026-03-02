@@ -122,6 +122,8 @@ x = bytearray(5)	bytearray
 x = memoryview(bytes(5))	memoryview	
 x = None	NoneType	
 
+In Python, the data type is set when you assign a value to a variable:
+
 Python Numbers---
 There are three numeric types in Python:
 
@@ -131,3 +133,47 @@ complex
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
+
+
+x = "Hello World"	str	
+x = 20	int	
+x = 20.5	float	
+x = 1j	complex	
+x = ["apple", "banana", "cherry"]	list	
+x = ("apple", "banana", "cherry")	tuple	
+x = range(6)	range	
+x = {"name" : "John", "age" : 36}	dict	
+x = {"apple", "banana", "cherry"}	set	
+x = frozenset({"apple", "banana", "cherry"})	frozenset	
+x = True	bool	
+x = b"Hello"	bytes	
+x = bytearray(5)	bytearray	
+x = memoryview(bytes(5))	memoryview	
+x = None	NoneType
+
+INT---
+Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+x = 1
+y = 35656222554887711
+z = -3255522
+
+Float-- 
+Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+Float can also be scientific numbers with an "e" to indicate the power of 10.
+x = 1.10
+y = 1.0
+z = -35.59
+
+Complex
+Complex numbers are written with a "j" as the imaginary part:
+x = 3+5j
+y = 5j
+z = -5j
+
+
+Strings
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+'hello' is the same as "hello"
+
+
+
