@@ -167,3 +167,113 @@ List is a collection which is ordered and changeable. Allows duplicate members.
 Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+## Arithmetic Operators
+Arithmetic operators are used with numeric values to perform common mathematical operations:
+Operator	    Name	       Example	
++	            Addition	     x + y	
+-	            Subtraction	     x - y	
+*	            Multiplication	 x * y	
+/	            Division	     x / y	
+%	            Modulus	         x % y	
+**	            Exponentiation	 x ** y	
+//	            Floor division	 x // y	
+
+Division in Python
+Python has two division operators:
+
+/ - Division (returns a float)
+// - Floor division (returns an integer)
+x = 12
+y = 5
+
+print(x / y)
+x = 12
+y = 8
+
+print(x / y)
+
+Floor division always returns an integer.
+
+It rounds DOWN to the nearest integer:
+
+x = 12
+y = 5
+
+print(x // y)
+
+# Assignment Operators
+Assignment operators are used to assign values to variables:
+Operator	Example	   Same As
+-=	        x -= 3	   x = x - 3	
+*=	        x *= 3	   x = x * 3	
+/=	        x /= 3	   x = x / 3	
+%=	        x %= 3	   x = x % 3	
+//=	        x //= 3	   x = x // 3	
+**=	        x **= 3	   x = x ** 3	
+&=	        x &= 3	   x = x & 3	
+|=	        x |= 3	   x = x | 3	
+^=	        x ^= 3	   x = x ^ 3	
+>>=       	x >>= 3	   x = x >> 3	
+<<=	        x <<= 3	   x = x << 3	
+:=	     print(x := 3)	x = 3 print(x)
+
+
+# Comparison Operators
+Comparison operators are used to compare two values:
+operator    name                       Example
+==	       Equal	                   x == y	
+!=	       Not equal	               x != y	
+>	       Greater than	               x > y	
+<	       Less than	               x < y	
+>=	       Greater than or equal to	   x >= y	
+<=	       Less than or equal to	   x <= y
+
+# Logical Operators
+Logical operators are used to combine conditional statements:
+
+Operator	    Description	                                    Example
+and 	        Returns True if both statements are true	    x < 5 and  x < 10
+or	            Returns True if one of the statements is true	x < 5 or x < 4
+not	            Reverse the result, returns False if the result is true	not(x < 5 and x < 10)
+
+ExampleGet your own Python Server
+Test if a number is greater than 0 and less than 10:
+
+x = 5
+print(x > 0 and x < 10)
+
+# Identity Operators
+Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)
+print(x is y)
+print(x == y)
+
+# Difference Between is and ==
+is - Checks if both variables point to the same object in memory
+== - Checks if the values of both variables are equal
+
+# Membership Operators
+Membership operators are used to test if a sequence is presented in an object:
+
+Operator	Description	            
+in 	        Returns True if a sequence with the specified value is present in the object	        EX- x in y	
+not in	    Returns True if a sequence with the specified value is not present in the object	        ex- x not in y
+
+# Bitwise Operators
+Bitwise operators are used to compare (binary) numbers:
+
+Operator	Name	     Description	                                   Example
+& 	        AND	         Sets each bit to 1 if both bits are                x & y	
+|	        OR	         Sets each bit to 1 if one of two bits is 1	        x | y	
+^	        XOR	         Sets each bit to 1 if only one of two bits is 1    x ^ y	
+~	        NOT	         Inverts all the bits	                             ~x	
+<<	        Zero fill left shift	Shift left by pushing zeros in from the right and let         the leftmost bits fall off	                                   x << 2	
+>>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 2	
+
+
