@@ -298,3 +298,174 @@ Object same आहे का check करतात.
 # Membership Operators
 
 List / string मध्ये value आहे का check.
+
+# What is a List?
+
+A list is a collection of multiple values stored in one variable.
+
+Example:
+
+fruits = ["apple", "banana", "mango"]
+print(fruits)
+
+# Access List Items
+
+List मधील items index number वापरून access करता येतात.
+List मध्ये indexing 0 पासून सुरू होते.
+
+Example
+fruits = ["apple", "banana", "mango"]
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+Output
+
+apple
+banana
+mango
+# Change List Items
+
+Index वापरून list मधील item बदलता (modify) येतो.
+
+Example
+fruits = ["apple", "banana", "mango"]
+
+fruits[1] = "orange"
+
+print(fruits)
+
+Output
+
+['apple', 'orange', 'mango']
+
+# Add List Items
+List मध्ये नवीन item add करण्यासाठी append() किंवा insert() वापरतो.
+
+Example
+fruits = ["apple", "banana"]
+
+fruits.append("mango")
+
+print(fruits)
+
+Output
+
+['apple', 'banana', 'mango']
+
+
+# Remove List Items
+
+List मधील item delete करण्यासाठी remove(), pop(), किंवा del वापरतो.
+
+Example
+fruits = ["apple", "banana", "mango"]
+
+fruits.remove("banana")
+
+print(fruits)
+
+Output
+
+['apple', 'mango']
+
+
+# Loop Lists
+List मधील सर्व items print करण्यासाठी for loop वापरतो.
+
+Example
+fruits = ["apple", "banana", "mango"]
+
+for fruit in fruits:
+    print(fruit)
+
+Output
+
+apple
+banana
+mango
+
+
+# List Comprehension
+List comprehension म्हणजे short method वापरून list तयार करणे.
+
+Example
+numbers = [x for x in range(5)]
+
+print(numbers)
+
+Output
+
+[0, 1, 2, 3, 4]
+
+# Sort Lists
+
+List मधील items sort() method वापरून ascending order मध्ये arrange करता येतात.
+
+Example
+numbers = [5, 2, 8, 1]
+
+numbers.sort()
+
+print(numbers)
+
+Output
+
+[1, 2, 5, 8]
+
+
+# Copy Lists
+List ची duplicate copy बनवण्यासाठी copy() method वापरतो.
+
+Example
+fruits = ["apple", "banana"]
+
+new_list = fruits.copy()
+
+print(new_list)
+
+Output
+
+['apple', 'banana']
+
+
+# Join Lists
+दोन lists + operator वापरून join करता येतात.
+
+Example
+list1 = ["a", "b"]
+list2 = [1, 2]
+
+list3 = list1 + list2
+
+print(list3)
+
+Output
+
+['a', 'b', 1, 2]
+
+
+# List Methods
+
+List मध्ये अनेक built-in methods असतात.
+
+Common methods:
+
+Method	     Use
+append()	add item
+insert()	add item at position
+remove()	remove item
+pop()	    remove by index
+sort()	    sort list
+reverse()	reverse list
+copy()	    copy list
+
+Example
+
+numbers = [3, 1, 5]
+
+numbers.sort()
+numbers.reverse()
+
+print(numbers)

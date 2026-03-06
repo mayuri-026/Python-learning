@@ -135,3 +135,74 @@ fruits = ["apple", "banana", "mango"]
 
 print("apple" in fruits)
 print("grape" not in fruits)
+
+# Access list Item
+fruits = ["apple", "banana", "mango"]
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+# Change List Items
+fruits = ["apple", "banana", "mango"]
+
+fruits[1] = "orange"
+
+print(fruits)
+
+# Add List Items
+fruits = ["apple", "banana"]
+
+fruits.append("mango")
+
+print(fruits)
+
+
+# Remove list Item
+
+fruits = ["apple", "banana", "mango"]
+
+fruits.remove("banana")
+
+print(fruits)
+
+# Loop list 
+fruits = ["apple", "banana", "mango"]
+
+for fruit in fruits:
+    print(fruit)
+
+# List Comprehension
+numbers = [x for x in range(5)]
+
+print(numbers)
+
+# Sort list 
+numbers = [5, 2, 8, 1]
+
+numbers.sort()
+
+print(numbers)
+
+# Copy list 
+fruits = ["apple", "banana"]
+
+new_list = fruits.copy()
+
+print(new_list)
+
+# Join List 
+list1 = ["a", "b"]
+list2 = [1, 2]
+
+list3 = list1 + list2
+
+print(list3)
+
+# List method 
+numbers = [3, 1, 5]
+
+numbers.sort()
+numbers.reverse()
+
+print(numbers)
