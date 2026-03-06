@@ -277,3 +277,24 @@ Operator	Name	     Description	                                   Example
 >>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 2	
 
 
+# operators with understanding
+# Comparison Operators
+
+हे True / False return करतात.
+
+
+# Logical Operators
+
+Conditions combine करण्यासाठी.
+
+# Assignment Operators
+
+Value assign करण्यासाठी.
+
+# Identity Operators
+
+Object same आहे का check करतात.
+
+# Membership Operators
+
+List / string मध्ये value आहे का check.

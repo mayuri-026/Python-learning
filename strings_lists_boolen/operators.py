@@ -80,3 +80,58 @@ fruits = ["apple", "banana", "cherry"]
 
 print("pineapple" not in fruits)
 
+# Arithmetic operators example 
+a = 10
+b = 3
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+print(a // b)
+
+# Comparision operators
+x = 10
+y = 5
+
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+
+# Logical Operators
+age = 25
+salary = 30000
+
+print(age > 18 and salary > 20000)
+print(age > 18 or salary > 50000)
+print(not(age > 18))
+
+# Assignment operator
+x = 10
+
+x += 5
+print(x)
+
+x -= 3
+print(x)
+
+x *= 2
+print(x)
+
+# Identity operators 
+a = [1,2,3]
+b = a
+
+print(a is b)
+print(a is not b)
+
+# Membership Operators
+fruits = ["apple", "banana", "mango"]
+
+print("apple" in fruits)
+print("grape" not in fruits)
